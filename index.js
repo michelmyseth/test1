@@ -1,19 +1,3 @@
-//boutton
-var intervalID;
-
-function startClock () 
-{
-	intervalID = setInterval(getCurrentDateTime, 1000);
-}
-
-function stopClock() {
-	clearInterval(intervalID);
-}
-
-function getCurrentDateTime()
-{
-	document.getElementById("countDown").innerHTML = new Date()
-}
 // CountDown
 function countDown(){
 
